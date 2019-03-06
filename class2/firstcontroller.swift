@@ -175,4 +175,12 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func btncode(_ sender: UIButton)
+    {
+        var sb = UIStoryboard(name: "Main", bundle: nil)
+        
+        var vc = sb.instantiateViewController(withIdentifier: "fvc") as! fourthViewController
+        
+        self.present(vc, animated: true)
+    }
 }

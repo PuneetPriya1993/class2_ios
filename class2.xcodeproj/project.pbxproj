@@ -18,6 +18,8 @@
 		9BC6D54B222F4FCB00587701 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6D549222F4FCB00587701 /* ImageViewController.xib */; };
 		9BC6D54D222F512A00587701 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6D54C222F512A00587701 /* demo.gif */; };
 		9BC6D54F222F51D600587701 /* HelloDecal-PRINT_grande.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6D54E222F51D600587701 /* HelloDecal-PRINT_grande.png */; };
+		9BC6D555222F62F200587701 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6D554222F62F200587701 /* HelloViewController.swift */; };
+		9BC6D557222F641300587701 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6D556222F641300587701 /* fourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		9BC6D549222F4FCB00587701 /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		9BC6D54C222F512A00587701 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		9BC6D54E222F51D600587701 /* HelloDecal-PRINT_grande.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HelloDecal-PRINT_grande.png"; sourceTree = "<group>"; };
+		9BC6D554222F62F200587701 /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
+		9BC6D556222F641300587701 /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				9BC6D526222F362000587701 /* Info.plist */,
 				9BC6D548222F4FCB00587701 /* ImageViewController.swift */,
 				9BC6D549222F4FCB00587701 /* ImageViewController.xib */,
+				9BC6D554222F62F200587701 /* HelloViewController.swift */,
+				9BC6D556222F641300587701 /* fourthViewController.swift */,
 			);
 			path = class2;
 			sourceTree = "<group>";
@@ -271,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC6D557222F641300587701 /* fourthViewController.swift in Sources */,
 				9BC6D51D222F361900587701 /* firstcontroller.swift in Sources */,
+				9BC6D555222F62F200587701 /* HelloViewController.swift in Sources */,
 				9BC6D54A222F4FCB00587701 /* ImageViewController.swift in Sources */,
 				9BC6D51B222F361900587701 /* AppDelegate.swift in Sources */,
 			);
