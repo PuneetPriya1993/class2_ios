@@ -14,6 +14,10 @@
 		9BC6D525222F362000587701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6D523222F362000587701 /* LaunchScreen.storyboard */; };
 		9BC6D530222F362000587701 /* class2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6D52F222F362000587701 /* class2Tests.swift */; };
 		9BC6D53B222F362000587701 /* class2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6D53A222F362000587701 /* class2UITests.swift */; };
+		9BC6D54A222F4FCB00587701 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC6D548222F4FCB00587701 /* ImageViewController.swift */; };
+		9BC6D54B222F4FCB00587701 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6D549222F4FCB00587701 /* ImageViewController.xib */; };
+		9BC6D54D222F512A00587701 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6D54C222F512A00587701 /* demo.gif */; };
+		9BC6D54F222F51D600587701 /* HelloDecal-PRINT_grande.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC6D54E222F51D600587701 /* HelloDecal-PRINT_grande.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9BC6D536222F362000587701 /* class2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = class2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC6D53A222F362000587701 /* class2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class2UITests.swift; sourceTree = "<group>"; };
 		9BC6D53C222F362000587701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC6D548222F4FCB00587701 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		9BC6D549222F4FCB00587701 /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		9BC6D54C222F512A00587701 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		9BC6D54E222F51D600587701 /* HelloDecal-PRINT_grande.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HelloDecal-PRINT_grande.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +109,12 @@
 				9BC6D51C222F361900587701 /* firstcontroller.swift */,
 				9BC6D51E222F361900587701 /* Main.storyboard */,
 				9BC6D521222F362000587701 /* Assets.xcassets */,
+				9BC6D54E222F51D600587701 /* HelloDecal-PRINT_grande.png */,
+				9BC6D54C222F512A00587701 /* demo.gif */,
 				9BC6D523222F362000587701 /* LaunchScreen.storyboard */,
 				9BC6D526222F362000587701 /* Info.plist */,
+				9BC6D548222F4FCB00587701 /* ImageViewController.swift */,
+				9BC6D549222F4FCB00587701 /* ImageViewController.xib */,
 			);
 			path = class2;
 			sourceTree = "<group>";
@@ -230,7 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC6D525222F362000587701 /* LaunchScreen.storyboard in Resources */,
+				9BC6D54F222F51D600587701 /* HelloDecal-PRINT_grande.png in Resources */,
 				9BC6D522222F362000587701 /* Assets.xcassets in Resources */,
+				9BC6D54D222F512A00587701 /* demo.gif in Resources */,
+				9BC6D54B222F4FCB00587701 /* ImageViewController.xib in Resources */,
 				9BC6D520222F361900587701 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC6D51D222F361900587701 /* firstcontroller.swift in Sources */,
+				9BC6D54A222F4FCB00587701 /* ImageViewController.swift in Sources */,
 				9BC6D51B222F361900587701 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

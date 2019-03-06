@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    var a:Int = 0
+    var b:Int = 0
+    var c:Int = 0
     
     
     @IBOutlet weak var txtno1: UITextField!
@@ -37,10 +39,7 @@ class ViewController: UIViewController {
     
     @IBAction func btnadd(_ sender: UIButton)
     {
-        var a:Int = 0
-        var b:Int = 0
-        var c:Int = 0
-        
+       
          a = Int(txtno1.text!)!
          b = Int(txtno2.text!)!
         
@@ -162,4 +161,18 @@ class ViewController: UIViewController {
         
         self.present(alert, animated: true)
     }
+    
+    
+    @IBAction func btnsub(_ sender: UIButton)
+    {
+        
+        a = Int(txtno1.text!)!
+        b = Int(txtno2.text!)!
+        
+        c = a - b
+        
+        lblresult.text = "Subtract: \(c)"
+    }
+    
+    
 }
